@@ -1,0 +1,20 @@
+{
+  "name": "actual_companion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@actual-app/api": "file:../actual_dev/packages/api",
+    "@actual-app/crdt": "file:../actual_dev/packages/crdt",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "typescript": "^5.4.5"
+  }
+}
